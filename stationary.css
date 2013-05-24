@@ -1,0 +1,27 @@
+#stationary{
+	position:relative;
+	margin-top:30px;
+}
+
+#stationary input,#stationary textarea{
+	position:absolute;
+	box-shadow:none;
+	border:1px solid #ddd;
+	background:none;
+	padding:0 7px;
+}
+
+#stationary input:hover,#stationary textarea:hover{
+	background:#fff;
+	border:1px solid #ccc;
+}
+
+#stationary input#submit{
+	border:1px solid #454545;
+	cursor:pointer;
+}
+#bgSelect{
+	width: auto !important;
+	border-radius:0px;
+	position:absolute;
+}
